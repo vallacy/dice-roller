@@ -16,6 +16,6 @@ You can also create a histogram of your rolls to check that your samples are (ro
 d20 <- sample(1:20, 1, replace=T)
 d20
 
-#create a histogram
+#create a histogram of your rolls
 hist(d20)
 ```

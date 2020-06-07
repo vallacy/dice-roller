@@ -1,10 +1,11 @@
-##########################################
-########### Rolling Dice DnD #############
+#########################################
+########### Rolling Dice DnD ############
 #########################################
 
 #roll a d4 die once
 d4 <- sample(1:4, 1, replace=T)
 d4
+#can create a histogram of rolls to make sure they are uniformly distributed
 #hist(d4)
 
 #roll a d6 die once
@@ -32,7 +33,10 @@ d20 <- sample(1:20, 1, replace=T)
 d20
 #hist(d20)
 
-####################quick rolls
+#################
+## quick rolls ##
+#################
+
 sample(1:4, 1, replace=T)
 sample(1:6, 1, replace=T)
 sample(1:8, 1, replace=T)
